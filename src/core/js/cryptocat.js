@@ -347,6 +347,7 @@ Cryptocat.addBuddy = function(nickname, id, status) {
 	$('#buddyList').queue(function() {
 		var buddyTemplate = Mustache.render(Cryptocat.templates.buddy, {
 			buddyID: buddy.id,
+			fullNickname:nickname,
 			shortNickname: shortenString(nickname, 11),
 			status: status
 		})

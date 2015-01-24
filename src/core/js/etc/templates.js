@@ -12,7 +12,7 @@ Cryptocat.templates = {
 	catFact: '<br />Here is an interesting fact while you wait:'
 		+ '<br /><div id="interestingFact">{{catFact}}</div>',
 
-	buddy: '<div class="buddy" id="buddy-{{buddyID}}" status="{{status}}" data-id="{{buddyID}}" dir="ltr">'
+	buddy: '<div class="buddy" id="buddy-{{buddyID}}" status="{{status}}" data-id="{{buddyID}}" title="{{fullNickname}}" dir="ltr">'
 		+ '<span class="loginTypeIcon"></span><span class="shortNickname">{{shortNickname}}</span>'
 		+ '<div class="buddyMenu" id="menu-{{buddyID}}"></div></div>',
 
